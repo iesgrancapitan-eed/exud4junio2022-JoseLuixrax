@@ -58,7 +58,7 @@
 
 ## GitHub Pages
 
-23. Sube el repositorio a GitHub (Añade aquí la url) y activa el hosting (GitHub Pages)(Añade aquí la url). Selecciona la carpeta docs como inicio
+23.  Sube el repositorio a GitHub ([Añade aquí la url](https://github.com/iesgrancapitan-eed/exud4junio2022-JoseLuixrax)) y activa el hosting (GitHub Pages)([Añade aquí la url](https://iesgrancapitan-eed.github.io/exud4junio2022-JoseLuixrax/)). Selecciona la carpeta docs como inicio
 
 ## BitBucket
 
