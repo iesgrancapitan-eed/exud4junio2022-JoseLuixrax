@@ -1,7 +1,7 @@
 package com.jlpl.examen.junio;
 
 
-class Bicycle {  
+class Bike {  
   int speed;
   int gear;
     
@@ -46,7 +46,7 @@ public void speedUp(int increment){
 
 @Override
 public String toString() {
-	return "Bicycle [speed=" + speed + ", gear=" + gear + "]";
+	return "Bike [speed=" + speed + ", gear=" + gear + "]";
 }
   
 }
@@ -84,14 +84,14 @@ public String toString() {
 //    
 //  public static void main (String[] args) {
 //    
-//      // creating an inatance of Bicycle
+//      // creating an inatance of Bike
 //      // doing some operations
-//      Bicycle bicycle = new Bicycle();
+//      Bike bicycle = new Bike();
 //      bicycle.changeGear(2);
 //      bicycle.speedUp(3);
 //      bicycle.applyBrakes(1);
 //        
-//      System.out.println("Bicycle present state :");
+//      System.out.println("Bike present state :");
 //      bicycle.printStates();
 //        
 //      // creating instance of the bike.
