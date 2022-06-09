@@ -1,4 +1,4 @@
-package com.examen.junio;
+package com.jlpl.examen.junio;
 
 
 class Bicycle {  
