@@ -1,44 +1,52 @@
 package com.jlpl.examen.junio;
 
 
-class Bike {  
+class Bike implements Vehicle {  
   int speed;
   int gear;
     
-  public void changeGear(int newGear){     
+  @Override
+public void changeGear(int newGear){     
       gear = newGear;
   }
     
   
-  public int getSpeed() {
+  @Override
+public int getSpeed() {
 	return speed;
 }
 
 
+@Override
 public void setSpeed(int speed) {
 	this.speed = speed;
 }
 
 
+@Override
 public int getGear() {
 	return gear;
 }
 
 
+@Override
 public void setGear(int gear) {
 	this.gear = gear;
 }
 
 
+@Override
 public void speedUp(int increment){
       speed = speed + increment;
   }
     
-  public void applyBrakes(int decrement){     
+  @Override
+public void applyBrakes(int decrement){     
       speed = speed - decrement;
   }
     
-  public void printStates() {
+  @Override
+public void printStates() {
       System.out.println("speed: " + speed
           + " gear: " + gear);
   }
